@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CloneRecipeSuite">
+	<listeners>
+		<listener class-name="qs.qa.extentreport.TestListener" />
+	</listeners>
+	<parameter name="tool" value="lightning"/>  
+  <test thread-count="5" name="CloneRecipeTest">
+    <classes>
+      <class name="qs.qa.testcases.CloneAndPublishRecipeTest"/>
+    </classes>
+  </test> <!-- CloneRecipeTest -->
+</suite> <!-- CloneRecipeSuite -->

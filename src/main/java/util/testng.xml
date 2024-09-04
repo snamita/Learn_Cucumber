@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QSTestSuite" parallel="false">
+	<listeners>
+		<listener class-name="qs.qa.extentreport.TestListener" />
+	</listeners>
+		<suite-files>
+			<suite-file path="testng_lidarflow.xml"></suite-file>
+			 
+			 <!--<suite-file path="testng_lightningflow.xml"></suite-file>-->
+			<!-- <suite-file path="testng_odinflow.xml"></suite-file> -->
+			<!-- <suite-file path="testng_delivery.xml"></suite-file> -->
+			<!-- <suite-file path="testng_lightningtasking.xml"></suite-file>-->
+			<!-- <suite-file path="testng_odintasking.xml"></suite-file>-->
+			<!--<suite-file path="testng_odintasking.xml"></suite-file>-->
+			<!--<suite-file path="testng_clonerecipe.xml"></suite-file>
+			<suite-file path="testng_clonetaskflow.xml"></suite-file> -->
+		</suite-files>
+</suite> <!-- QSTestSuite -->

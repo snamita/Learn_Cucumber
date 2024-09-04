@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LidarflowSuite">
+	<listeners>
+		<listener class-name="qs.qa.extentreport.TestListener" />
+	</listeners>
+	<parameter name="tool" value="lidar"/> 
+  <test thread-count="5" name="LidarflowTest">
+    <classes>
+      <class name="qs.qa.testcases.LiDAR_2DRectangle_RegressionSuite"/>
+    </classes>
+  </test> <!-- LidarflowTest -->
+</suite> <!-- LidarflowSuite -->
